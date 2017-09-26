@@ -11,6 +11,7 @@
         <Button x:Name="mijnKnop" Content="Klik hier!" HorizontalAlignment="Left" Height="39" Margin="174,107,0,0" VerticalAlignment="Top" Width="165" FontSize="18" Background="#FF17470C" Foreground="White" Click="Button_Click"/>
         <Label x:Name="mijnLabel" Content="Klik hier" HorizontalAlignment="Left" Height="37" Margin="89,159,0,0" VerticalAlignment="Top" Width="347" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Label x:Name="mijnStatusLabel" HorizontalAlignment="Left" Height="41" Margin="174,213,0,0" VerticalAlignment="Top" Width="165" Background="#FFF3FF79"/>
+        <Label Content="***************************" HorizontalAlignment="Left" Height="34" Margin="129,266,0,0" VerticalAlignment="Top" Width="250" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
     </Grid>
 </Window>
