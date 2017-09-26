@@ -28,6 +28,7 @@ namespace WpfHelloWorld
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             mijnLabel.Content = "De wereldbol is een ruimteschip.";
+            mijnStatusLabel.Background = Brushes.Red;
         }
     }
 }
