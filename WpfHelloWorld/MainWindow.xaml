@@ -8,6 +8,8 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Label Content="Hallo wereld, ik ben Kitty!" HorizontalAlignment="Left" Height="50" Margin="89,10,0,0" VerticalAlignment="Top" Width="328" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18"/>
+        <Button x:Name="mijnKnop" Content="Klik hier!" HorizontalAlignment="Left" Height="39" Margin="174,107,0,0" VerticalAlignment="Top" Width="165" FontSize="18" Background="#FF17470C" Foreground="White" Click="Button_Click"/>
+        <Label x:Name="mijnLabel" Content="Klik hier" HorizontalAlignment="Left" Height="37" Margin="89,159,0,0" VerticalAlignment="Top" Width="347" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
     </Grid>
 </Window>

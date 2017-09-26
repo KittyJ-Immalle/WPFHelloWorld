@@ -24,5 +24,10 @@ namespace WpfHelloWorld
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            mijnLabel.Content = "De wereldbol is een ruimteschip.";
+        }
     }
 }
